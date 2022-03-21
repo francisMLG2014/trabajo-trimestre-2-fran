@@ -1,0 +1,18 @@
+En este trabajo final de trimestre deben demostrar su dominio de los temas dados en este trimestre.
+Para ello se les pide un trabajo de modificación de ficheros para cumplir los siguientes requisitos:
+
+CSS - al visualizar el XML en el navegador, cada elemento libro se mostrará como un bloque de 300 puntos de ancho fijo
+CSS - Si el viewport fuera menor de 300 puntos, al ver el XML en el navegador no se mostrará nada
+CSS - Si el viewport fuera menor de 300 puntos, al ver el XML en el navegador se mostrará el texto "Viewport muy estrecho"
+XML - Cambiar el contenido del campo titulo según lo que vean en la imagen (ejemplo: "Las siestas de Senda"
+XML - Añadir como primer elemento de cada libro un campo <foto> para poder mostrar arriba en cada bloque la imagen facilitada
+XML - Deberá validar contra el XSD facilitado. Para ello, si fuera necesario añadir campos, en cuyo caso también deberás mostrarlos al visualizar el XML en el navegador.
+CSS - Al visualizar el XML en el navegador, pinchando enmedio de dos elementos cambie el orden de visualización, o sea desde el último hasta el primero.
+CSS - Al visualizar el XML en el navegador, al pasar el ratón sobre un título ésta se verá un 20% más grande.
+CSS - Al visualizar el XML en el navegador, al pinchar en una foto ésta se verá en blanco y negro
+CSS - Al visualizar el XML en el navegador, al pinchar en una foto se verá una sombra (elige tú cómo prefieras hacer ese efecto).
+
+referencias: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Puntaje: 1 punto cada requisito bien hecho, medio punto si está incorrecto, cero puntos si no está hecho.
+Nota posible de los trabajos entregados: de 1 a 10.

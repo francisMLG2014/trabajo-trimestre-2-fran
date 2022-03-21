@@ -1,0 +1,63 @@
+p{
+color:blue;
+}
+
+h1{
+    display: none;
+}
+h2:hover{
+    transform-origin:left;
+    transform: scale(1.2,1.2);
+}
+img{
+    width: 300px;
+    
+}
+body{
+    background-color: blanchedalmond;
+}
+
+#contenedorLibro{
+    padding: 30px;
+    width: 300px;
+}
+
+#divInversivo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+#divInversivo:active{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+
+img:active{
+    filter: blur(4px) grayscale(1);
+    border-top: 5px solid rgba(56, 56, 56, 0.6);
+    border-bottom: 15px solid rgb(56, 56, 56,0.6);
+    border-right: 15px solid  rgb(56, 56, 56,0.6) ;
+    border-radius: 1px 40px 5px 40px;   
+} 
+
+
+
+@media only screen and (max-width: 550px){
+    #divInversivo{
+        display: none;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        display: flex;
+    }
+}
+
+

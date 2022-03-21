@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/curso%20cenec/Desktop/finalT2/biblioteca.xsd">
+  <libro>
+    <foto>miki.webp</foto>
+    <sexo>Mujer</sexo>
+    <titulo>La mirada de Miki</titulo>
+    <autor>Milan Kundera</autor>
+    <fechaPublicacion año="1972"/>
+  </libro>
+  <libro>
+    <foto>senda.webp</foto>
+    <sexo>Hombre</sexo>
+    <titulo>La siesta de Senda</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1973"/>
+  </libro>
+  <libro>
+    <foto>summer.webp</foto>
+    <sexo>Hombre</sexo>
+    <titulo>La tarde de Summer</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1969"/>
+  </libro>
+</biblioteca>
